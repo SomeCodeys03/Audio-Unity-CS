@@ -2,6 +2,7 @@ using System;
 using UnityEngine.Audio;
 using UnityEngine;
 
+[System.Serializable]
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
